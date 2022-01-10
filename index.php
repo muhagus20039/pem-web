@@ -1,4 +1,18 @@
 <!doctype html>
+
+<?php
+
+session_start();
+if(!isset($_SESSION['username'])){
+    header('location:login.php');
+    exit;
+}
+
+include 'koneksi.php';
+?>
+
+
+
 <html lang="en">
   <head>
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
@@ -151,6 +165,13 @@
             </tr>
         </tbody>
     </table>
+
+
+    <figure class="text-center mt-4">
+        <blockquote class="blockquote">
+            <p>Top 10 Billboard Indonesia</p>
+        </blockquote>
+    </figure>
 
 
     </div>
