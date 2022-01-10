@@ -39,13 +39,16 @@ include 'koneksi.php';
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-            <a class="nav-link" href="#">Billboard</a>
+            <a class="nav-link" href="#">Playlist</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">Lirik</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">Dengarkan</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="logout.php">Log Out</a>
             </li>
         </ul>
         <form class="d-flex">
@@ -79,7 +82,7 @@ include 'koneksi.php';
             <td>GAYLE</td>
             <td>4.795.710</td>
             <td>
-                <a href="https://youtu.be/NaFd8ucHLuo"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/NaFd8ucHLuo" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -88,7 +91,7 @@ include 'koneksi.php';
             <td>The Weeknd</td>
             <td>4.760.913</td>
             <td>
-                <a href="https://youtu.be/VafTMsrnSTU"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/VafTMsrnSTU" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -97,7 +100,7 @@ include 'koneksi.php';
             <td>The Kid Laroi, Justin Bieber</td>
             <td>4.554.901</td>
             <td>
-                <a href="https://youtu.be/kTJczUoc26U"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/kTJczUoc26U" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -106,7 +109,7 @@ include 'koneksi.php';
             <td>Glass Animals</td>
             <td>4.266.226</td>
             <td>
-                <a href="https://youtu.be/mRD0-GxqHVo"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/mRD0-GxqHVo" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -115,7 +118,7 @@ include 'koneksi.php';
             <td>Adele</td>
             <td>4.012.162</td>
             <td>
-                <a href="https://youtu.be/X-yIEMduRXk"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/X-yIEMduRXk" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -124,7 +127,7 @@ include 'koneksi.php';
             <td>Meghan Trainor</td>
             <td>4.000.162</td>
             <td>
-                <a href="https://youtu.be/fD7LIqkKisc"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/fD7LIqkKisc" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -133,7 +136,7 @@ include 'koneksi.php';
             <td>Faouzia & John Legends</td>
             <td>3.812.162</td>
             <td>
-                <a href="https://youtu.be/jKIEUdAMtrQ"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/jKIEUdAMtrQ" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -142,7 +145,7 @@ include 'koneksi.php';
             <td>Ed Sheeran</td>
             <td>3.732.162</td>
             <td>
-                <a href="https://youtu.be/orJSJGHjBLI"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/orJSJGHjBLI" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -151,7 +154,7 @@ include 'koneksi.php';
             <td>Lil Nas X</td>
             <td>3.672.162</td>
             <td>
-                <a href="https://youtu.be/6swmTBVI83k"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/6swmTBVI83k" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
             <tr>
@@ -160,7 +163,7 @@ include 'koneksi.php';
             <td>The Walters</td>
             <td>3.412.162</td>
             <td>
-                <a href="https://youtu.be/WBRPnyMT164"><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
+                <a href="https://youtu.be/WBRPnyMT164" target='_blank'><span class="iconify" data-icon="ant-design:play-circle-filled"></span></a>
             </td>
             </tr>
         </tbody>

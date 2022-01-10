@@ -12,6 +12,8 @@ if(isset($_POST['btnLogin'])){
 
         $cek = mysqli_fetch_assoc($query);
         if(password_verify($password, $cek['password'])){
+            session_start();
+            $_SESSION['username'] = $cek['username'];
             header('location:index.php');
         }
         else{
