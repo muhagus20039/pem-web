@@ -42,12 +42,6 @@ include 'koneksi.php';
             <a class="nav-link" href="playlist.php">Playlist</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Lirik</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Dengarkan</a>
-            </li>
-            <li class="nav-item">
             <a class="nav-link" href="logout.php">Log Out</a>
             </li>
         </ul>
@@ -170,16 +164,8 @@ include 'koneksi.php';
     </table>
 
 
-    <figure class="text-center mt-4">
-        <blockquote class="blockquote">
-            <p>Top 10 Billboard Indonesia</p>
-        </blockquote>
-    </figure>
-
 
     </div>
-
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 

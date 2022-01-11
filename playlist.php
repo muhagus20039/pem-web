@@ -11,8 +11,8 @@
     <title>My Playlist</title>
   </head>
   <body>
-  <div class="container fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-2">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-2" >
     <div class="container-fluid">
         <span>
             <img src="img/logo.png" alt="" width="45" height="30">
@@ -25,12 +25,6 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
             <a class="nav-link" href="playlist.php">Playlist</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Lirik</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Dengarkan</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="logout.php">Log Out</a>
@@ -76,7 +70,7 @@
                         <td><?php echo $data[1]; ?> </td>
                         <td><?php echo $data[2]; ?> </td>
                         <td>
-                            <a href="<?php echo $data[3] ?>" class="btn btn-danger" target='_blank'>Putar</a>
+                            <a href="<?php echo $data[3] ?>" class="btn btn-primary" target='_blank'>Putar</a>
                             <a href="deleteplaylist.php?id=<?php echo $data[0] ?>" class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
