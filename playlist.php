@@ -77,7 +77,7 @@
                         <td><?php echo $data[2]; ?> </td>
                         <td>
                             <a href="<?php echo $data[3] ?>" class="btn btn-danger" target='_blank'>Putar</a>
-                            <a href="delete.php?id=<?php echo $data[0] ?>" class="btn btn-danger">Hapus</a>
+                            <a href="deleteplaylist.php?id=<?php echo $data[0] ?>" class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
                 <?php
